@@ -1,5 +1,5 @@
 <?php
-//include "include/session.php";
+
 //include "include/z_db.php";
 session_start();
 ?>
