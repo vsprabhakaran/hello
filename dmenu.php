@@ -1,6 +1,6 @@
 <?php
 
-//include "include/z_db.php";
+
 session_start();
 ?>
 <!doctype html>
@@ -16,11 +16,7 @@ session_start();
 
 <div id='cssmenu'>
 <ul>
-   <li class='active'><a href='#'><span>Letters</span></a>
-      <ul>
-         <li><a href='lettadd1.php'><span>Entry</span></a></li>
-         <li><a href='lettmod.php'><span>Modify</span></a></li>
-         	<?php $usrid = $_SESSION['usrid'];
+   
 	   		$findstr='CGM';
 	  	    $pos = strpos($usrid,$findstr);
 	   		if ($pos === false)
